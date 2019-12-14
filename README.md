@@ -33,7 +33,7 @@ The installation is a chimera of guides like https://vanilla.amd-osx.com and htt
 
 4. Install [Clover bootloader](https://github.com/CloverHackyColor/CloverBootloader/releases) in the EFI partition.
 
-5. Copy the file https://github.com/AMD-OSX/AMD_Vanilla/blob/master/17h/config.plist overwriting `EFI/EFI/CLOVER/config.plist`.
+5. Copy the file https://github.com/nayaabkhan/amd-osx-vanilla/blob/master/config.plist overwriting `EFI/EFI/CLOVER/config.plist`.
 
 6. Make sure you have following in the `/Volumes/EFI/EFI/CLOVER/drivers/UEFI`:
 
