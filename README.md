@@ -42,7 +42,7 @@ The installation is a chimera of guides like https://vanilla.amd-osx.com and htt
     AptioInputFix.efi	AudioDxe.efi		FSInject.efi		HFSPlus.efi		VBoxHfs.efi
     ```
  
-7. Install the following kexts in `/Volumes/EFI/EFI/CLOVER/kexts/Other`:
+7. Install the following kexts in `/Volumes/EFI/EFI/CLOVER/kexts/Other`. Most kexts can be found [here](https://1drv.ms/f/s!AiP7m5LaOED-m-J8-MLJGnOgAqnjGw):
 
     ```
     AppleALC.kext			NullCPUPowerManagement.kext	RtWlanU.kext			USBInjectAll.kext		WhateverGreen.kext
