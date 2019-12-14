@@ -13,6 +13,11 @@ Currently, we are limited to High Sierra because of lack of Nvidia WebDrivers fo
 
 - High Sierra 10.13.6 (17G66)
 
+## What is not working (well)
+
+- There is screen tearing at times
+- After wakeup from sleep, there is some noticeable sluggishness
+
 # Installation
 
 The installation is a chimera of guides like https://vanilla.amd-osx.com and https://github.com/AMD-OSX/AMD_Vanilla.
@@ -55,4 +60,4 @@ The installation is a chimera of guides like https://vanilla.amd-osx.com and htt
 
 10. Installing WebDrivers: Only `WebDriver-387.10.10.15.15.108` supports all versions of High Sierra. Use it if none others work. Nvidia has removed official drivers for this version but it could be found as reupload elsewhere. I have it on my Network drive in case needed.
 
-10. For WIFI use: https://github.com/chris1111/Wireless-USB-Adapter-Clover to install kexts in the EFI parition.
+11. For WIFI use: https://github.com/chris1111/Wireless-USB-Adapter-Clover to install kexts in the EFI parition.
