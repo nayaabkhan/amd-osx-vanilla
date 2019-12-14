@@ -50,3 +50,9 @@ The installation is a chimera of guides like https://vanilla.amd-osx.com and htt
     ```
  
 8. Now you can reboot into the USB to perform the installation. **Please use APFS with SSDs** or installation won't proceed.
+
+9. Post install, we need to copy over the EFI folder from USB to the EFI partition on the SSD where macOS was installed. Use Clover Configurator to mount both and perform the copy.
+
+10. Installing WebDrivers: Only `WebDriver-387.10.10.15.15.108` supports all versions of High Sierra. Use it if none others work. Nvidia has removed official drivers for this version but it could be found as reupload elsewhere. I have it on my Network drive in case needed.
+
+10. For WIFI use: https://github.com/chris1111/Wireless-USB-Adapter-Clover to install kexts in the EFI parition.
