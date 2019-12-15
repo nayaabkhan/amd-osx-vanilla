@@ -31,7 +31,7 @@ The installation is a chimera of guides like https://vanilla.amd-osx.com and htt
 2. Prepare the bootable USB:
    
     ```
-    sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolumeName
+    sudo ~/Downloads/gibMacOS-master/macOS \Downloads/publicrelease/123-XX-YYY/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolumeName
     ```
     
 3. Download [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/) and mount the EFI partition of the USB installer.
