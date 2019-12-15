@@ -53,6 +53,8 @@ The installation is a chimera of guides like https://vanilla.amd-osx.com and htt
     AppleALC.kext			NullCPUPowerManagement.kext	RtWlanU.kext			USBInjectAll.kext		WhateverGreen.kext
     Lilu.kext			RealtekRTL8111.kext		RtWlanU1827.kext		VirtualSMC.kext			XHCI-unsupported.kext
     ```
+    
+    ⚠️ Do not install `GenericUSBXHCI` as it causes kernel panic.
  
 8. Now you can reboot into the USB to perform the installation. **Please use APFS with SSDs** or installation won't proceed.
 
